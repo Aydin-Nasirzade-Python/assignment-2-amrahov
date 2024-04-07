@@ -11,8 +11,6 @@ def main():
       print(f"{month} {day} is in Fall")
   elif (month=="December" and day>=21) or month=="January" or month=="Febrary" or(month=="March" and day<20):
       print(f"{month} {day} is in Winter")
-  else:
-      print("Invalid input or date.")
   pass
 
 if __name__ == "__main__":
