@@ -9,7 +9,7 @@ def main():
       print(f"{month} {day} is in Summer")
   elif (month=="September" and day>=22) or month=="October" or month=="November" or (month=="December" and day<21):
       print(f"{month} {day} is in Fall")
-  elif (month=="December" and day>=21) or month=="January" or month=="Febrary" or(month=="March" and day<20):
+  elif (month=="December" and day>=21) or month=="January" or month=="February" or(month=="March" and day<20):
       print(f"{month} {day} is in Winter")
   pass
 
