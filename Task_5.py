@@ -27,6 +27,8 @@ def main():
       print("Your zodiac sign is Scorpion")
   elif (month=="November" and day>=22) or (month=="December" and day<=21):
       print("Your zodiac sign is Sagittarius")
+  elif month=="February" and day>=30:
+    print("Either a month or a day is invalid!")
   else:
       print("Either a month or a day is invalid!")
   pass
